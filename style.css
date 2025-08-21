@@ -39,7 +39,7 @@ h1{
 
 header nav ul{
     display: flex;
-    gap: 1500px;
+    gap: 12px;
 }
 
 .search-bar{
@@ -79,4 +79,45 @@ header nav ul{
     padding: 40px 120px;
     gap: 40px;
     flex-wrap: wrap;
+}
+
+.article-card{
+    background-color: #f4f5f7; 
+    color: #0a111e;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    width: 100%;
+}
+
+.article-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.article-title{
+    font-weight: 900;
+}
+
+.article-content{
+    line-height: 1.4;
+}
+
+.likebutton{
+    background: none;
+    border: none;
+    font-size: 1.5em;
+}
+
+@media (max-width:768px){
+    .article-header{
+        font-size: 0.8em;
+    }
+    header, .articles{
+        padding: 40px;
+    }
+}
+
+.A{
+    margin-left: 700px;
 }
